@@ -1679,7 +1679,7 @@ $lang_admin['showinvoice'] = 'Rechnung anzeigen';
 $lang_admin['sum'] = 'Summe';
 
 /* @TODO: Anpassen */
-$lang_user['weekdays_long'] = '';
+$lang_user['weekdays_long'] = ['So.', 'Mo.', 'Di.', 'Mi.', 'Do.', 'Fr.', 'Sa.'];			// sunday through saturday
 $lang_user['pleasechose'] = 'Bitte wählen';
 $lang_user['home'] = 'Home';
 $lang_user['plans'] = 'Tarife';
@@ -1723,9 +1723,9 @@ $lang_user['validation_time_limit'] = 'Sie können Ihren Freischalt-Code in %d:%
 $lang_user['from2'] = 'von';
 $lang_user['fetching'] = 'Wird abgerufen';
 $lang_user['deliverystatus'] = 'Zustell-Status';
-$lang_user['mds_delivered'] = 'Zugestellt an &lt;strong&gt;%d&lt;/strong&gt; Empfänger.';
-$lang_user['mds_deferred'] = 'Zustellung an &lt;strong&gt;%d&lt;/strong&gt; Empfänger verzögert.';
-$lang_user['mds_failed'] = 'Zustellung an &lt;strong&gt;%d&lt;/strong&gt; Empfänger fehlgeschlagen.';
+$lang_user['mds_delivered'] = 'Zugestellt an <strong>%d&</strong> Empfänger.';
+$lang_user['mds_deferred'] = 'Zustellung an <strong>%d&</strong> Empfänger verzögert.';
+$lang_user['mds_failed'] = 'Zustellung an <strong>%d&</strong> Empfänger fehlgeschlagen.';
 $lang_user['mds_processing'] = 'In Zustellung';
 $lang_user['mds_recp_processing'] = 'In Zustellung';
 $lang_user['mds_recp_delivered'] = 'Zugestellt';
@@ -1887,7 +1887,7 @@ $lang_admin['write_xsenderip'] = 'X-Sender-IP-Header schreiben';
 $lang_admin['fts_bg_indexing'] = 'Automatische Hintergrund-Indizierung';
 $lang_admin['signupsuggestions'] = 'Adress-Vorschläge anbieten';
 $lang_admin['buildindex'] = 'Index aufbauen';
-$lang_admin['buildindex_desc'] = 'Mit dieser Funktion können Sie noch nicht indizierte E-Mails dem Volltext-Such-Index hinzufügen.&lt;br /&gt;&lt;br /&gt;Dies kann z.B. erforderlich werden, wenn die Volltext-Suche für bereits existierende Benutzer erst im Nachhinein erlaubt wurde.';
+$lang_admin['buildindex_desc'] = 'Mit dieser Funktion können Sie noch nicht indizierte E-Mails dem Volltext-Such-Index hinzufügen.<br /><br />Dies kann z.B. erforderlich werden, wenn die Volltext-Suche für bereits existierende Benutzer erst im Nachhinein erlaubt wurde.';
 $lang_admin['optimizeindex'] = 'Index optimieren';
 $lang_admin['optimizeindex_desc'] = 'Mit dieser Funktion werden die Volltext-Such-Index-Datenbanken Ihrer Benutzer optimiert. Dabei wird ggf. ungenutzter Speicher freigegeben.';
 $lang_admin['organizerdav'] = 'CalDAV/CardDAV';
@@ -2058,7 +2058,7 @@ $lang_admin['lockedaltmails'] = 'Verbotene Alt.-E-Mail-Adressen';
 $lang_admin['altmailsepby'] = '(ein Eintrag pro Zeile, \'*\' als Platzhalter verwendbar, z.B. \'*@evil-domain.xy\')';
 $lang_admin['minpasslength'] = 'Minimale Passwort-Länge';
 $lang_admin['diskorphansfound'] = 'Es wurde(n) %d verwaiste(s) Webdisk-Datei(en) (%.02f KB) gefunden. Die Löschung der verwaisten Objekte wird empfohlen.';
-$lang_admin['diskorphans_desc'] = 'Diese Funktion löscht alle verwaisten Webdisk-Dateien unwiderruflich.&lt;br /&gt;&lt;br /&gt;Verwaiste Webdisk-Dateien sind noch vorhandene Dateien von nicht mehr existierenden Benutzern und entstehen z.B. wenn ein Benutzer-Löschvorgang abbricht.';
+$lang_admin['diskorphans_desc'] = 'Diese Funktion löscht alle verwaisten Webdisk-Dateien unwiderruflich.<br /><br />Verwaiste Webdisk-Dateien sind noch vorhandene Dateien von nicht mehr existierenden Benutzern und entstehen z.B. wenn ein Benutzer-Löschvorgang abbricht.';
 $lang_admin['mailorphans'] = 'E-Mail-Waisen';
 $lang_admin['diskorphans'] = 'Webdisk-Waisen';
 $lang_admin['disable'] = 'Deaktivieren';
@@ -2145,7 +2145,7 @@ $lang_custom['contact_subjects'] = 'Frage zum Angebot'."\n"
                                 .'Frage zum Login'."\n"
                                 .'Passwort vergessen'."\n"
                                 .'Sonstiges Anliegen';
-$lang_custom['notify_date'] = 'Termin: &lt;strong&gt;%s&lt;/strong&gt;';
-$lang_custom['notify_newemail'] = '&lt;strong&gt;%d&lt;/strong&gt; neue E-Mail(s): %s';
-$lang_custom['notify_email'] = 'E-Mail eingetroffen von &lt;strong&gt;%s&lt;/strong&gt;: %s';
-$lang_custom['notify_birthday'] = '&lt;strong&gt;%s&lt;/strong&gt; wird heute &lt;strong&gt;%d Jahre&lt;/strong&gt; alt!';
+$lang_custom['notify_date'] = 'Termin: <strong>%s&</strong>';
+$lang_custom['notify_newemail'] = '<strong>%d&</strong> neue E-Mail(s): %s';
+$lang_custom['notify_email'] = 'E-Mail eingetroffen von <strong>%s&</strong>: %s';
+$lang_custom['notify_birthday'] = '<strong>%s&</strong> wird heute <strong>%d Jahre&</strong> alt!';
