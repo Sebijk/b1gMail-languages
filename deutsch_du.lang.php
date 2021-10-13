@@ -1,5 +1,4 @@
 <?php
-
 /*
  * b1gMail
  * Copyright (c) 2021 Patrick Schlangen et al
@@ -1723,9 +1722,9 @@ $lang_user['validation_time_limit'] = 'Sie können Ihren Freischalt-Code in %d:%
 $lang_user['from2'] = 'von';
 $lang_user['fetching'] = 'Wird abgerufen';
 $lang_user['deliverystatus'] = 'Zustell-Status';
-$lang_user['mds_delivered'] = 'Zugestellt an <strong>%d&</strong> Empfänger.';
-$lang_user['mds_deferred'] = 'Zustellung an <strong>%d&</strong> Empfänger verzögert.';
-$lang_user['mds_failed'] = 'Zustellung an <strong>%d&</strong> Empfänger fehlgeschlagen.';
+$lang_user['mds_delivered'] = 'Zugestellt an <strong>%d</strong> Empfänger.';
+$lang_user['mds_deferred'] = 'Zustellung an <strong>%d</strong> Empfänger verzögert.';
+$lang_user['mds_failed'] = 'Zustellung an <strong>%d</strong> Empfänger fehlgeschlagen.';
 $lang_user['mds_processing'] = 'In Zustellung';
 $lang_user['mds_recp_processing'] = 'In Zustellung';
 $lang_user['mds_recp_delivered'] = 'Zugestellt';
